@@ -9,5 +9,9 @@ public class KitchenStoryWebApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(KitchenStoryWebApplication.class, args);
 	}
+	@Override
+   	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+        	return builder.sources(KitchenStoryWebApplication.class);
+    	}
 
 }
