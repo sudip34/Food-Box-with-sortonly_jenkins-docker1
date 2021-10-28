@@ -11,6 +11,7 @@
 	<groupId>kitchen-story</groupId>
 	<artifactId>kitchen-story</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>kitchen-story-web</name>
 	<description>kitchen-story-backend</description>
 	<properties>
