@@ -16,7 +16,7 @@ public class KitchenStoryWebApplication extends SpringBootServletInitializer{
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(JarToWarApp.class);
+		return application.sources(KitchenStoryWebApplication.class);
 	}
 
 }
