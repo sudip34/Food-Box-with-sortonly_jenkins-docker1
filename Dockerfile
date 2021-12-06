@@ -3,4 +3,4 @@
 # ADD target/foodbox-bankend.jar foodbox-bankend.jar
 # ENTRYPOINT ["java","-jar","/foodbox-bankend.jar"]
 FROM tomcat:8-jre8 
-COPY ./*.wjar /usr/local/tomcat/webapps
+COPY ./*.jar /usr/local/tomcat/webapps
